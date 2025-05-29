@@ -61,7 +61,7 @@ This fills a gap between one-shot prompt tuning and per-task prompt optimization
 
 | Role                 | Model (example)                | Output                                     |
 | -------------------- | ------------------------------ | ------------------------------------------ |
-| **Task Generator**   | GPT‑o3                         | 8 domain‑diverse project briefs *$T₁…T₈$*  |
+| **Task Generator**   | GPT‑o3                         | 8 domain‑diverse project briefs *$T_1 \dots T_8$* |
 | **Rubric Generator** | GPT‑o3                         | Markdown rubric *R*                        |
 | **Applicator**       | GPT‑o3                         | Plan *Oᵢⱼ* given prompt *Pᵢ* and task *Tⱼ* |
 | **Evaluators 0/1**   | GPT‑o4‑mini‑high, Gemini Flash | Score vector *Sᵢⱼₖ*                        |
