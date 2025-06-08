@@ -1,0 +1,10 @@
+import os
+
+DEFAULT_RETRY_ATTEMPTS: int = 3
+DEFAULT_RETRY_DELAY: float = 1.0
+RETRY_BACKOFF_FACTOR: float = 2.0
+CACHE_DIR_ENV: str = "CLPO_CACHE_DIR"
+CACHE_EXPIRE_ENV: str = "CLPO_CACHE_EXPIRE"
+DEFAULT_CACHE_DIR: str = ".clpo_cache"
+DEFAULT_CACHE_EXPIRE: int = 86_400
+SEED: int = int(os.getenv("CLPO_SEED", "42"))
